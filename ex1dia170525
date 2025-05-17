@@ -1,0 +1,108 @@
+import java.util.Scanner;
+
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner sc = new Scanner(System.in);
+	    System.out.println("Bem vindo a lanchonete da PET. Qual seria o seu pedido?\n Hamburguer R$14,99 / Digite 1\n Batata Frita R$4,99 / Digite 2\n Nuggets R$9,99 / Digite 3\n Refrigerante R$10 / Digite 4\n Suco R$15 / Digite 5");
+	    int Lanche =sc.nextInt();
+	    
+	    if (Lanche == 1 ){
+	        System.out.println("Quantas unidades você deseja?");
+	        Double Unidades =sc.nextDouble();
+	        System.out.println("Quanto dinheiro você tem?");
+	        Double Valor =sc.nextDouble();
+	        
+	        double Valor_Final = Valor - (14.99 * Unidades);
+	        
+	        if(Valor_Final < 0){
+	            System.out.println("Você não possui esse dinheiro!");
+	        }
+	        
+	        else {
+	            System.out.println("Perfeito! Tenha um otimo dia! Sobrou R$" + Valor_Final);   
+	        }
+	       
+	        
+	    }
+	    
+	    if (Lanche == 2 ){
+	       System.out.println("Quantas unidades você deseja?");
+	       Double Unidades =sc.nextDouble();
+	       System.out.println("Quanto dinheiro você tem?");
+	       Double Valor =sc.nextDouble();
+	        
+	       double Valor_Final = Valor - (4.99 * Unidades);
+	        
+	       if(Valor_Final < 0){
+	            System.out.println("Você não possui esse dinheiro!");
+	        }
+	        
+	       else {
+	            System.out.println("Perfeito! Tenha um otimo dia! Sobrou R$" + Valor_Final);   
+	        }
+	       
+	        
+	    }
+	    
+	    if (Lanche == 3 ){
+	       System.out.println("Quantas unidades você deseja?");
+	       Double Unidades =sc.nextDouble();
+	       System.out.println("Quanto dinheiro você tem?");
+	       Double Valor =sc.nextDouble();
+	        
+	       double Valor_Final = Valor - (9.99 * Unidades);
+	        
+	       if(Valor_Final < 0){
+	            System.out.println("Você não possui esse dinheiro!");
+	        }
+	        
+	       else {
+	            System.out.println("Perfeito! Tenha um otimo dia! Sobrou R$" + Valor_Final);   
+	        }
+	       
+	        
+	    }
+	    
+	    if (Lanche == 4 ){
+	       System.out.println("Quantas unidades você deseja?");
+	       Double Unidades =sc.nextDouble();
+	       System.out.println("Quanto dinheiro você tem?");
+	       Double Valor =sc.nextDouble();
+	        
+	       double Valor_Final = Valor - (10 * Unidades);
+	        
+	       if(Valor_Final < 0){
+	            System.out.println("Você não possui esse dinheiro!");
+	        }
+	        
+	       else {
+	            System.out.println("Perfeito! Tenha um otimo dia! Sobrou R$" + Valor_Final);   
+	        }
+	       
+	        
+	    }
+	    
+	    if (Lanche == 5 ){
+	       System.out.println("Quantas unidades você deseja?");
+	       Double Unidades =sc.nextDouble();
+	       System.out.println("Quanto dinheiro você tem?");
+	       Double Valor =sc.nextDouble();
+	        
+	       double Valor_Final = Valor - (15 * Unidades);
+	        
+	       if(Valor_Final < 0){
+	            System.out.println("Você não possui esse dinheiro!");
+	        }
+	        
+	       else {
+	            System.out.println("Perfeito! Tenha um otimo dia! Sobrou R$" + Valor_Final);   
+	        }
+	       
+	        
+	    }
+	    
+	    
+	}
+	
+}
