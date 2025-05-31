@@ -6,8 +6,7 @@ public class Main
         int NumeroFinal;
         
         Scanner sc = new Scanner(System.in);
-        System.out.pr
-        intln("Escreva um número");
+        System.out.println("Escreva um número");
         int NumeroTabuada = sc.nextInt();
         
         for (int Tabuada = 1; Tabuada <= 10 ; Tabuada++){
