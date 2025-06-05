@@ -1,0 +1,27 @@
+CREATE DATABASE FranquiaRE;
+USE FranquiaRE;
+
+CREATE TABLE Jogos (
+	id INT AUTO_INCREMENT PRIMARY KEY,
+    Nome VARCHAR(100) NOT NULL,
+    Lancamento DATE NOT NULL,
+	Console VARCHAR(100),
+	Diretor VARCHAR(100)
+);
+
+INSERT INTO Jogos (Nome, Lancamento, Console, Diretor) VALUES
+
+('Resident Evil 1', '1996-03-22', 'PlayStantion 1', 'Shinji Mikami'),
+('Resident Evil 2', '1998-01-21', 'PlayStantion 1', 'Hideki Kamiya'),
+('Resident Evil 3: Nemesis', '1999-09-22', 'PlayStantion 1', 'Kazuhiro Aoyama'),
+('Resident Evil Code: Veronica', '2000-02-03', 'DreamCast', 'Hiroki Katō'),
+('Resident Evil Remake', '2002-03-22', 'GameCube', 'Shinji Mikami'),
+('Resident Evil 0', '2002-11-12', 'GameCube', 'Koji Oda'),
+('Resident Evil 4', '2005-01-11', 'GameCube', 'Shinji Mikami'),
+('Resident Evil 5', '2009-03-05', 'PlayStantion 3', 'Yasuhiro Anpo'),
+('Resident Evil 6', '2012-10-02', 'Xbox360', 'Eiichiro Sasaki'),
+('Resident Evil 7: Biohazard', '2017-01-24', 'PlayStantion 4', 'Koshi Nakanishi'),
+('Resident Evil 2 Remake', '2019-01-25', 'XboxOne', 'Kazunori Kadoi'),
+('Resident Evil 3 Remake', '2020-04-03', 'PlayStantion 4', 'Yasuhiro Seto'),
+('Resident Evil Village', '2021-05-07', 'Xbox Serie X', 'Morimasa Sato'),
+('Resident Evil 4 Remake', '2023-03-24', 'PlayStantion 5', 'Yasuhiro Anpo');
